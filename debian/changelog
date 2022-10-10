@@ -1,0 +1,15 @@
+libcanary-stability-perl (2006-2) unstable; urgency=medium
+
+  * Stop check license during build:
+    + Stop include cdbs snippet utils.mk.
+    + Stop build-depend on devscripts.
+    Closes: Bug#928695. Thanks to Helmut Grohne.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 11 May 2019 11:39:53 +0200
+
+libcanary-stability-perl (2006-1) unstable; urgency=low
+
+  * Initial release.
+    Closes: Bug#794672.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 05 Aug 2015 17:40:20 +0200
